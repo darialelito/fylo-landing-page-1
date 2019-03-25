@@ -14,45 +14,49 @@
 </head>
 
 <body>
-    <!-- START header -->
-    <header class="header-main">
-        <nav class="nav-header">
-            <div class="nav-header-logo">
-                <img src="./images/logo.svg" alt="logo" class="img">
-            </div>
-            <div class="nav-container">
-                <ul>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fas fa-envelope"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- <div class="header-img"><img src="./images/illustration-main.svg" alt="guy"></div> -->
-        <img src="./images/illustration-main.svg" alt="guy" class="header-main-img">
-    </header>
+    <!-- START navigation -->
+    <nav class="nav-main">
+        <div class="nav-main-logo">
+            <img src="./images/logo.svg" alt="logo" class="img">
+        </div>
+        <div class="nav-container">
+            <ul>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <!-- START section-one -->
-    <section class="section-one">
-        <h1>All your files in one secure location, accessible anywhere.</h1>
-        <p>Fylo stores all your most important files in one secure location.
-            Access them wherever you need, share and collaborate with friends,
-            family and co-workers.</p>
+    <div class="wrapper">
+        <!-- START header -->
+        <header class="header-main">
+            <img src="./images/illustration-main.svg" alt="guy" class="header-main-img">
+        </header>
+        <div class="wrapper-second">
+            <!-- START section-one -->
+            <section class="section-one">
+                <h1>All your files in one secure location, accessible anywhere.</h1>
+                <p>Fylo stores all your most important files in one secure location.
+                    Access them wherever you need, share and collaborate with friends,
+                    family and co-workers.</p>
 
-        <h2>Sign up for early access</h2>
-        <input type="text" name="username">
-        <button>Sign Up</button>
+                <h2>Sign up for early access</h2>
+                <input type="text" name="username">
+                <button class="btn">Sign Up</button>
 
-        <p class="section-one-policy">Privacy Policy</p>
-    </section>
+                <p class="section-one-policy">Privacy Policy</p>
+            </section>
 
-    <!-- START footer -->
-    <footer>
-        <p class="attribution">
-            This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-            🎉
-        </p>
-    </footer>
+            <!-- START footer -->
+            <footer class="footer">
+                <p class="attribution">
+                    This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+                    🎉
+                </p>
+            </footer>
+        </div>
+    </div>
 </body>
 
 </html>
